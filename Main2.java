@@ -1,6 +1,6 @@
 import java.util.Vector;
 
-public class Main {
+public class Main2 {
 
     private static Vector<Card_c> deck_of_card;
 

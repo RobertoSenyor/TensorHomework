@@ -1,17 +1,17 @@
-public class Card_c {
+public class Card_2c {
 
     private int rank;
     private String suit;
 
     private String[] check_suit_mas = { "diamonds", "clubs", "hearts", "spades" };
 
-    public Card_c() {
+    public Card_2c() {
 
         this.rank = 1;
         this.suit = "diamonds";
     }
 
-    public Card_c(int _rank, String _suit) {
+    public Card_2c(int _rank, String _suit) {
 
         if (_rank >= 1 && _rank <= 10) {
 
@@ -39,7 +39,7 @@ public class Card_c {
         }
     }
 
-    public Card_c(String _suit) {
+    public Card_2c(String _suit) {
 
         int max_rank = 0;
         boolean find_suit = false;

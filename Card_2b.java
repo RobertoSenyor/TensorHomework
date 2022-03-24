@@ -1,17 +1,17 @@
-public class Card_b {
+public class Card_2b {
 
     private int rank;
     private String suit;
 
     private String[] check_suit_mas = { "diamonds", "clubs", "hearts", "spades" };
 
-    public Card_b() {
+    public Card_2b() {
 
         this.rank = 1;
         this.suit = "diamonds";
     }
 
-    public Card_b(int _rank, String _suit) {
+    public Card_2b(int _rank, String _suit) {
 
         if (_rank >= 1 && _rank <= 10) {
 

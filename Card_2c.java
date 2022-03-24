@@ -49,7 +49,7 @@ public class Card_2c {
 
             if (_suit.equals(it)) {
 
-                for (Card_c i : Main.get_deck_array()) {
+                for (Card_c i : Main2.get_deck_array()) {
 
                     if (_suit.equals(i.get_suit()) && max_rank < i.get_rank()) {
 

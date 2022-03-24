@@ -1,9 +1,9 @@
-public class Card_a {
+public class Card_2a {
 
     int rank;
     String suit;
 
-    public Card_a() {
+    public Card_2a() {
 
     }
 }
